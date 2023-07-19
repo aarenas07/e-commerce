@@ -1,0 +1,113 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "nombre": "Nike air force one",
+            "precio": 400000,
+            "idCategoria":16
+        },
+        {
+            "id": 2,
+            "nombre": "Nike Air Max 90",
+            "precio": 500000,
+            "idCategoria":16
+
+        },
+        {
+            "id": 3,
+            "nombre": "Nike Cortez",
+            "precio": 600000,
+            "idCategoria":16
+
+        },
+        {
+            "id": 4,
+            "nombre": "Nike Dunk High Panda",
+            "precio": 700000,
+            "idCategoria":16
+
+        },
+        {
+            "id": 5,
+            "nombre": "Adidas Forum",
+            "precio": 700000,
+            "idCategoria":16
+
+        },
+        {
+            "id": 6,
+            "nombre": "Adidas Superstar",
+            "precio": 700000
+        },
+        {
+            "id": 7,
+            "nombre": "Adidas Stan Smith",
+            "precio": 700000
+        },
+        {
+            "id": 8,
+            "nombre": "Adidas Adi2000",
+            "precio": 700000
+        },
+        {
+            "id": 9,
+            "nombre": " Jordan x Dior Air Jordan 1 Retro High",
+            "precio": 700000
+        },
+        {
+            "id": 10,
+            "nombre": "Air Jordan 4 Retro Infrared",
+            "precio": 700000
+        },
+        {
+            "id": 11,
+            "nombre": "Air Jordan 3 Retro Cardinal Rojo Blanco",
+            "precio": 700000
+        },
+        {
+            "id": 12,
+            "nombre": "Jordan Air Jordan 11 Retro Bred",
+            "precio": 700000
+        },
+        {
+            "id": 13,
+            "nombre": "Puma Roma Classic Gum",
+            "precio": 700000
+        },
+        {
+            "id": 14,
+            "nombre": "Puma Running",
+            "precio": 700000
+        },
+        {
+            "id": 15,
+            "nombre": "Puma X Ray Speed",
+            "precio": 700000,
+            "imagenes":{
+
+            }
+        }
+    ],
+    "categories": [
+        {
+            "id": 16,
+            "nombre": "Zapatos Nike",
+            "descripcion": "Zapatos Nike"
+        },
+        {
+            "id": 17,
+            "name": "Zapatos adidas",
+            "descripcion": "Zapatos adidas"
+        },
+        {
+            "id": 18,
+            "name": "Zapatos Jordan",
+            "descripcion": "Zapatos Jordan"
+        },
+        {
+            "id": 19,
+            "name": "Zapatos Puma",
+            "descripcion": "Zapatos Puma"
+        }
+    ]
+}

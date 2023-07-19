@@ -11,7 +11,13 @@
 </head>
 
 <body>
+    <script>
+        const cargarProductos = async () => {
+            const resp = await fetch("http://localhost:3000/sayayins");
+            console.log(resp.body);
+        }
 
+    </script>
     <div class="wrapper">
         <aside>
             <header>
@@ -34,7 +40,7 @@
                         </button>
                     </li>
                     <li>
-                        <button class="boton-menu boton-categoria">
+                        <button class="boton-menu boton-categoria" onclick="cargarProductos()">
                             <i class="bi bi-hand-index"></i>
                             Camisetas
                         </button>
@@ -47,7 +53,7 @@
                     </li>
                     <li>
                         <a class="boton-menu boton-carrito" href="./carrito.html">
-                            <i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito">0</span>
+                            <i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito">999</span>
                         </a>
                     </li>
                 </ul>
@@ -58,7 +64,7 @@
         </aside>
         <main>
             <h2 class="titulo-principal">Todos los productos</h2>
-            <div class="contendor-productos">
+            <div id="contenedor-productos" class="contendor-productos">
                 <div class="producto">
                     <img class="producto-imagen" src="./img/abrigos/01.jpg" alt="">
                     <div class="producto-detalles">
@@ -68,32 +74,9 @@
                     </div>
                 </div>
 
-                <div class="producto">
-                    <img class="producto-imagen" src="./img/abrigos/01.jpg" alt="">
-                    <div class="producto-detalles">
-                        <h3 class="producto-titulo">Abrigo 02</h3>
-                        <p class="producto-precio">$1000</p>
-                        <button class="producto-agregar">Agregar al carrito</button>
-                    </div>
-                </div>
+            </div>
 
-                <div class="producto">
-                    <img class="producto-imagen" src="./img/abrigos/01.jpg" alt="">
-                    <div class="producto-detalles">
-                        <h3 class="producto-titulo">Abrigo 03</h3>
-                        <p class="producto-precio">$1000</p>
-                        <button class="producto-agregar">Agregar al carrito</button>
-                    </div>
-                </div>
-
-                <div class="producto">
-                    <img class="producto-imagen" src="./img/abrigos/01.jpg" alt="">
-                    <div class="producto-detalles">
-                        <h3 class="producto-titulo">Abrigo 04</h3>
-                        <p class="producto-precio">$1000</p>
-                        <button class="producto-agregar">Agregar al carrito</button>
-                    </div>
-                </div>
+            <div id="contenedor-productos" class="contendor-productos">
                 <div class="producto">
                     <img class="producto-imagen" src="./img/abrigos/01.jpg" alt="">
                     <div class="producto-detalles">
@@ -103,32 +86,42 @@
                     </div>
                 </div>
 
+            </div>
+
+            <div id="contenedor-productos" class="contendor-productos">
                 <div class="producto">
                     <img class="producto-imagen" src="./img/abrigos/01.jpg" alt="">
                     <div class="producto-detalles">
-                        <h3 class="producto-titulo">Abrigo 02</h3>
+                        <h3 class="producto-titulo">Abrigo 01</h3>
                         <p class="producto-precio">$1000</p>
                         <button class="producto-agregar">Agregar al carrito</button>
                     </div>
                 </div>
 
+            </div>
+
+            <div id="contenedor-productos" class="contendor-productos">
                 <div class="producto">
                     <img class="producto-imagen" src="./img/abrigos/01.jpg" alt="">
                     <div class="producto-detalles">
-                        <h3 class="producto-titulo">Abrigo 03</h3>
+                        <h3 class="producto-titulo">Abrigo 01</h3>
                         <p class="producto-precio">$1000</p>
                         <button class="producto-agregar">Agregar al carrito</button>
                     </div>
                 </div>
 
+            </div>
+
+            <div id="contenedor-productos" class="contendor-productos">
                 <div class="producto">
                     <img class="producto-imagen" src="./img/abrigos/01.jpg" alt="">
                     <div class="producto-detalles">
-                        <h3 class="producto-titulo">Abrigo 04</h3>
+                        <h3 class="producto-titulo">Abrigo 01</h3>
                         <p class="producto-precio">$1000</p>
                         <button class="producto-agregar">Agregar al carrito</button>
                     </div>
                 </div>
+
             </div>
         </main>
     </div>
